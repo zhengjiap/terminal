@@ -1,0 +1,29 @@
+{
+  "name": "tindex",
+  "version": "0.0.1",
+  "description": "index-server",
+  "main": "src/index.js",
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=local node src/index.js ",
+    "start": "cross-env NODE_ENV=prod node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "xiapi",
+  "license": "ISC",
+  "dependencies": {
+    "connect-redis": "^6.0.0",
+    "cross-env": "^7.0.3",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "md5": "^2.3.0",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.6.0",
+    "NeteaseCloudMusicApi": "^4.10.2",
+    "pg": "^8.11.3",
+    "pg-hstore": "^2.3.4",
+    "random-string": "^0.2.0",
+    "redis": "^4.6.8",
+    "sequelize": "^6.21.3",
+    "typescript": "^4.4.2"
+  }
+}
